@@ -1,0 +1,144 @@
+*{
+  margin :0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+#logo{
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0px 14px;
+ font-size: 38px;
+ margin-right: 40px;
+  
+
+}
+#logo img{
+  height: 45px;
+  filter: invert(1);
+}
+#navbar{
+  background-color: rgb(232, 67, 67);
+  padding: 13px 14px;
+}
+
+#navbar ul{
+display: flex;
+align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+  color:white;
+text-decoration: none;
+margin :2px 3px;
+padding:3px 30px;
+font-size: 1.3rem;
+font-weight: bold;
+}
+#navbar li :hover{
+  color: black;
+    
+}
+
+#introSection {
+display: flex;
+flex-direction: column;
+background: url('/static/bg.jpeg') no-repeat center center/cover ;
+
+font-size: 60px;
+height: 400px;
+width:100%;
+justify-content: center;
+align-items: center;
+background-color: red;
+padding-bottom: 40px;
+color:white
+
+}
+#introSection div.small{
+  font-size: 25px;
+}
+#missionsection{
+  margin: auto;
+  display: block;
+  width: 64%;
+  
+}
+.container{
+  display: flex;
+}
+#missionsection h2{
+  text-align: center;
+  font-size: 36px;
+  padding-top: 3px;
+}
+.card{
+  
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 40%;
+  margin: 25px 35px;
+  height: 234px;
+  text-align: center;
+
+}
+.card h3{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(231, 212, 212);
+}
+
+.card-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-img{
+  height: 100px;
+  padding: 0 14px;
+
+}
+.card-img img{
+  height: inherit;
+}
+.card-content{
+  padding: 0px 3px;
+}
+#sponsorsection{
+
+    height: 300px;
+    background-color: #e04242c7;
+}
+
+#sponsorsection h2{
+  text-align: center;
+  font-size: 36px;
+  padding-top: 3px;
+}
+#sponsors{
+  display: flex;
+ margin: auto;
+ justify-content: center;
+  height: 181px;
+
+
+}
+.spimage{
+  height: 134px;
+  width: 107px;
+  margin: 28px;
+ 
+}
+#footer{
+  height: 64px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

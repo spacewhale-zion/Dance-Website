@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    margin:12px 0px;
+
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.myinput{
+    width: 40%;
+    font-size: 16px;
+    border: 2px solid rgb(226, 201, 201);
+    padding: 9px;
+    margin: 8px;
+    outline: none;
+    border-radius: 9px;
+}
+.btn{
+    padding: 5px 13px;
+    margin-bottom: 10px;
+    margin:10px;
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: white;
+    background: rgb(239, 103, 103);
+    cursor: pointer;
+}

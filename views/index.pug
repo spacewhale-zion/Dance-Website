@@ -1,0 +1,65 @@
+//- index.pug
+doctype html
+html
+  head
+    title Aryan Dance Academy
+    style
+      include ../static/style.css
+  body
+  nav#navbar
+     ul 
+        div#logo
+            img(src="../static/img/logo.png", alt="")
+            | ADA
+        li #[a(href="/") Home ]
+        li #[a(href="/") About ]
+        li #[a(href="/") Services ]
+        li #[a(href="/") Class Info ]
+        li #[a(href="/") Contanct Us]
+    
+  section#introSection 
+         div Welcome to Aryan Dance Academy 
+         div.small Dance India Dance
+  
+  section#missionsection 
+         h2 Our Mission
+         div.container
+             div.card
+                h3 Dance Perfection
+                div.card-box
+                   div.card-img
+                       img(src="../static/img/1.png", alt="")
+
+                   div.card-content
+                       p This is the Best Dance Academy of World
+             div.card
+                h3 Dance The Way you Like
+                div.card-box
+                   div.card-img
+                       img(src="../static/img/2.png", alt="")
+
+                div.card-content
+                       p This is the Best Dance Academy of World
+             div.card
+                h3 Expert Teaching
+                div.card-box
+                   div.card-img
+                       img(src="../static/img/3.png", alt="")
+
+                div.card-content
+                       p This is the Best Dance Academy of World
+
+  section#sponsorsection
+        h2 Our Sponsors
+        div#sponsors
+           img(src="../static/img/logo1.png", alt="Sponsor image" Class="spimage")
+           img(src="../static/img/logo2.png", alt="Sponsor image" Class="spimage")
+           img(src="../static/img/logo3.png", alt="Sponsor image" Class="spimage")
+           img(src="../static/img/logo4.png", alt="Sponsor image" Class="spimage")
+          
+  footer#footer
+        | Copyright @ 2023 AryanDanceAcademy.com | All rights reseved
+
+        
+  script
+      include ../static/index.js
